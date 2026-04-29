@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px;
+  background: #007BFF;
+  color: white;
+}
+
+.btn {
+  background: white;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
