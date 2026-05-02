@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>TechCorp Solutions</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechCorp</title>
+
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="index.css">
+<script src="js/script.js" defer></script>
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <h1>TechCorp</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<header class="navbar">
+  <h1>TechCorp</h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <h2>We Build Modern Websites</h2>
-  <p>Your business deserves a powerful online presence.</p>
-  <a href="services.html" class="btn">Explore Services</a>
+  <div class="hero-content">
+    <h2><span id="typing"></span></h2>
+    <p>We create modern, scalable and high-performance websites.</p>
+    <a href="contact.html" class="btn">Start Project</a>
+  </div>
 </section>
 
-<section class="features">
-  <div class="card">Web Development</div>
-  <div class="card">UI/UX Design</div>
-  <div class="card">SEO Optimization</div>
+<!-- SERVICES -->
+<section class="services">
+  <div class="container">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="cards">
+
+      <div class="card glass">
+        <img src="images/image2.jpeg" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Modern and scalable solutions.</p>
+      </div>
+
+      <div class="card glass">
+        <img src="images/image3.jpeg" alt="UI Design">
+        <h3>UI/UX Design</h3>
+        <p>Clean and interactive designs.</p>
+      </div>
+
+      <div class="card glass">
+        <img src="images/image4.jpeg" alt="SEO Services">
+        <h3>SEO Optimization</h3>
+        <p>Boost your search rankings.</p>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
-<footer>
-  <p>© 2026 TechCorp Solutions</p>
-</footer>
+<!-- CALL TO ACTION -->
+<section class="cta">
+  <h2>Ready to Grow Your Business?</h2>
+  <a href="contact.html" class="btn">Contact Us</a>
+</section>
+
+<footer>© 2026 TechCorp</footer>
 
 </body>
 </html>

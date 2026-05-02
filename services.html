@@ -2,35 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Services</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - TechCorp</title>
+
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="services.css">
+  <script src="js/script.js" defer></script>
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <h1>TechCorp</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<header class="navbar">
+  <h1>TechCorp</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </header>
 
-<section class="content">
-  <h2>Our Services</h2>
-  <ul>
-    <li>Website Development</li>
-    <li>Responsive Design</li>
-    <li>SEO Optimization</li>
-  </ul>
+<!-- HERO -->
+<section class="services-hero">
+  <h2>Our Premium Services</h2>
+  <p>We deliver high-quality digital solutions for your business growth</p>
 </section>
 
-<footer>
-  <p>© 2026 TechCorp Solutions</p>
-</footer>
+<!-- SERVICES -->
+<section class="services">
+  <div class="container">
+
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <img src="images/image2.jpeg" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Modern, fast and scalable websites for your business.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <img src="images/image3.jpeg" alt="UI UX Design">
+        <h3>UI/UX Design</h3>
+        <p>Clean, interactive and user-friendly interfaces.</p>
+      </div>
+
+      <div class="service-card reveal">
+        <img src="images/image4.jpeg" alt="SEO Optimization">
+        <h3>SEO Optimization</h3>
+        <p>Improve ranking and grow your online presence.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Ready to Grow Your Business?</h2>
+  <a href="contact.html" class="btn">Get Started</a>
+</section>
+
+<footer>© 2026 TechCorp</footer>
 
 </body>
 </html>

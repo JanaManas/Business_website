@@ -1,0 +1,124 @@
+/* HERO */
+.contact-hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(120deg, #0a192f, #007BFF);
+  color: white;
+}
+
+.contact-hero h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* MAIN SECTION */
+.contact-section {
+  padding: 80px 20px;
+  background: #f5f9ff;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+/* LEFT INFO */
+.contact-info {
+  flex: 1;
+  background: linear-gradient(120deg,#007BFF,#00c6ff);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.contact-info h3 {
+  margin-bottom: 20px;
+}
+
+.info-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+/* SOCIAL ICONS */
+.social span {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* FORM */
+.contact-form {
+  flex: 1;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INPUT GROUP */
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* FLOAT LABEL */
+.input-group label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label,
+.input-group textarea:focus + label,
+.input-group textarea:valid + label {
+  top: -8px;
+  font-size: 12px;
+  color: #007BFF;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(120deg,#00c6ff,#007BFF);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .contact-hero h2 {
+    font-size: 28px;
+  }
+}
